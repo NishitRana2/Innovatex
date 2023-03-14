@@ -1,0 +1,87 @@
+/*css reset*/
+*{
+    margin:0; 
+    padding:0;
+}
+/*css variable */
+:root {
+    --navbar-height: 59px;
+}
+
+    #navbar{
+        display: flex;
+        align-items: center;
+    }
+        #navbar::before {
+        
+            content: "";
+            background-color: black;
+            position: absolute;
+            height:100%;
+            width:100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+    
+    /* logo and image*/
+    #logo{
+height:56px;
+margin:45;
+
+    }
+    #logo img
+    {
+height:20px;
+margin:30px;
+
+    }
+
+    /*list styling */
+    #navbar{
+        position: relative;
+    }
+    ul{
+        display:  flex ; 
+    }
+    #navbar ul li{
+       /* colo: white;*/
+       list-style: none;
+       font-size: 1.4rem;
+    }
+    #navbar ul{
+        display: flex;
+    }
+    #navbar::before{
+       content: "";
+       background-color: black;
+       position: absolute;
+       height:100%;
+       width:100%;
+       z-index: -1;
+       opacity: 0.4;
+
+
+    }
+
+        
+    #navbar ul li  a {
+        color: white ;
+      display: block;
+      padding: 3px 25x;
+      border-radius: 20px;
+      text-decoration: none;
+
+     }
+     #navbar ul li  a:hover {
+        color: black ;
+      display: white;
+      padding: 3px 25x;
+      border-radius: 20px;
+      text-decoration: none;
+
+     }
+/*home section*/
+#home{
+    display: flex;
+    
+}
